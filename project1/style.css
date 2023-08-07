@@ -1,0 +1,125 @@
+header img{
+    padding-top: 20px;
+    padding-left: 60px;
+    width: 90%;
+}
+.imagesone{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+.imagestwo{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.architects{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    width:25%;
+    height:400px;
+    padding: 50px;
+    left: 2%;
+    right:2%;
+
+}
+#two{
+    width:25%;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#three{
+    width:25%;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#four{
+    width:25%;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#five{
+    width:25%;
+    height:500px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#six{
+    width:25%;
+    height:500px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#seven{
+    width:25%;
+    height:500px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#eight{
+    width:25%;
+    height:500px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+
+#archi1{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#archi2{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#archi2{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#archi3{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+#archi4{
+    width:400px;
+    height:400px;
+    padding: 30px;
+    left: 2%;
+    right:2%;
+}
+.summer{
+    position: relative;
+    text-align:left;
+    background: black;
+    color:white;
+    bottom :100px;
+    padding:2px;
+    right:350px;
+    top:40px;
+}

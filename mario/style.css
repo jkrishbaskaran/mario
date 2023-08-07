@@ -1,0 +1,186 @@
+body,h1,h2,a{
+    padding: 0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width:100%;
+    z-index:1;
+    top:0%;
+    left:0%
+}
+header h1{
+    padding: 20px;
+    border:8px solid white;
+    padding: 6px 12px;
+    display:inline-block;
+    border-radius: 60px;
+}
+.banner{
+    position:relative
+}
+.banner img{
+    max-width: 100%;
+}
+.welcome{
+    background-color: orange;
+    color:white;
+    position: absolute;
+    padding: 30px;
+    left:0%;
+    top:30%; 
+}
+.banner h2{
+    font-size: 70px;
+}
+.banner h2 span{
+    font-size: 1.3em; 
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 140px;
+}
+nav ul{
+    white-space:nowrap;
+    max-width: 1200;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+nav li a.join{
+    color:orange;
+    padding-top: 0px;
+}
+main{
+    max-width: 100%;
+    width:1200px;
+    margin: 80px auto;
+    padding : 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    font-size: 40px;
+    color:orange;
+}
+article p{
+    line-height: 2em;
+    color: orange;
+
+}
+.images{
+    text-align:center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 40px 5%;
+}
+.images li img{
+    max-width: 100%;;
+}
+.join {
+    color:#4b4b4b;
+    background: white;
+    padding:60px 20px;
+    text-align: center;
+
+}
+.join h2{
+    font-size: 32px;
+}
+form input{
+    padding: 10px 20px;
+    margin: 20px 0px;
+    font-size:24px;
+    border-radius: 28px;
+    border: 4px solid white;
+} 
+footer{
+    background:orange;
+    color:white;
+    padding: 10px;
+    text-align: center;
+}
+    
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+
+form input:hover{
+    border:4px solid black;
+    outline: none;
+}
+form input:valid{
+    border:4px solid  green;
+    outline:none;
+}
+article p::first-line{
+    font:bold;
+    text-transform: capitalize;
+    font-size: 10;
+}
+p::selection{
+    background-color: darkgoldenrod;
+    color:white
+}
+
+@media screen  and (max-width: 700px) {
+.banner h2{
+    font-size: 30px;
+}
+nav li{
+    font-size: 18px;
+}
+    
+}
+@media  screen and (max-width:600px) {
+.welcome{
+   position: relative;
+   padding: 15px;
+   text-align: center;
+}
+.welcome br{
+  display: none;
+}
+.welcome span{
+    font-size:25px ;
+}
+.welcome h2{
+    font-size: 1 em;
+}
+.images li{
+    display: block;
+}   
+}
+@media  screen and (max-width:400px){
+nav li{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+   margin: 12px 0px;
+}
+header{
+    position: relative;
+}
+nav{
+    top:0px;
+    
+}
+
+}

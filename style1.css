@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+#id1{
+    font-family: fantasy;
+    line-height: initial;
+}
+
+.form2{
+    text-transform: capitalize;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.form1{
+    text-transform:initial;
+    text-decoration: double;
+}
+
+.divi1{
+    color:burlywood;
+    margin:40%
+}
+
+#span1{
+    color:inherit;
+    margin:40%;
+    width: 10px;
+    height: 10px;
+    border:5px solid black;
+}
